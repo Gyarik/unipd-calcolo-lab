@@ -18,7 +18,7 @@ if(a ~= 0 && b ~= 0 && c ~= 0)
     delta = b^2 - 4*a*c;
     % Se delta == 0 le due soluzioni coincidono
     if(delta == 0)
-        x = (-b - sqrt(delta)) / (2 * a);
+        x = -b / (2 * a);
         fprintf("Due soluzioni reali coincidenti\n");
         fprintf("x1 = x2 = %e\n", x);
     % Se delta > 0 ci sono due soluzioni distinte
