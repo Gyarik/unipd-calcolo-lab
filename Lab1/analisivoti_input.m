@@ -13,8 +13,8 @@ massimo = max(voti);
 minimo = min(voti);
 
 % Stampa in command window dei risultati
-sprintf("La mediana dei voti e' %d/n", mediana)
-sprintf("La media dei voti e' %d\n", media)
-sprintf("La media ponderata dei voti e' %d\n", mediap)
-sprintf("Il voto massimo e' %i", massimo)
-sprintf("Il voto minimo e' %i", minimo)
+fprintf("La mediana dei voti e' %d\n", mediana)
+fprintf("La media dei voti e' %d\n", media)
+fprintf("La media ponderata dei voti e' %d\n", mediap)
+fprintf("Il voto massimo e' %i\n", massimo)
+fprintf("Il voto minimo e' %i\n", minimo)
