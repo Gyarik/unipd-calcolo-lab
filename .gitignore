@@ -1,3 +1,6 @@
+# Output txt files for excercises
+*.txt
+
 # Windows default autosave extension
 *.asv
 
